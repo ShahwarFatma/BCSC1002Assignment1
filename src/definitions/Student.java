@@ -45,4 +45,10 @@ public class Student {
         this.universityRollNumberOfTheStudent = universityRollNumberOfTheStudent;
         this.numberOfBooksIssuedByTheStudent = 2;
     }
+
+    @Override
+    public String toString() {
+        return "Name Of The Student:" + nameOfTheStudent + "University Roll Number Of The Student:" + universityRollNumberOfTheStudent +
+                "Number Of Books Issued By The Student:" + numberOfBooksIssuedByTheStudent;
+    }
 }
