@@ -7,7 +7,6 @@
 package definitions;
 
 public class Library {
-    private static final int NUMBER_OF_BOOKS_PRESENT = 10;
     private Book[] booksCurrentlyAvailable;
 
 }
