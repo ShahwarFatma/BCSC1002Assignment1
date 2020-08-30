@@ -14,6 +14,8 @@ public class FrontDesk {
         System.out.println("Name of the Book:" + book.getNameOfTheBook());
         System.out.println("Name of the Author of the Book:" + book.getAuthorOfTheBook());
         System.out.println("ISBN Number of the Book:" + book.getThirteenDigitIsbnNumberOfTheBook());
-
+        book.setNameOfTheBook("Pride and Prejudice");
+        book.setAuthorOfTheBook("Jane Austen");
+        book.setThirteenDigitIsbnNumberOfTheBook("0123456789123");
     }
 }
