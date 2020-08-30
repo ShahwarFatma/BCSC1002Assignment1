@@ -9,4 +9,8 @@ package definitions;
 public class Library {
     private Book[] booksCurrentlyAvailable;
 
+    public Library(Book[] booksCurrentlyAvailable) {
+        this.booksCurrentlyAvailable = booksCurrentlyAvailable;
+    }
+
 }
