@@ -34,4 +34,10 @@ public class Book {
     public void setThirteenDigitIsbnNumberOfTheBook(String thirteenDigitIsbnNumberOfTheBook) {
         this.thirteenDigitIsbnNumberOfTheBook = thirteenDigitIsbnNumberOfTheBook;
     }
+
+    public Book() {
+        this.nameOfTheBook = "Great Expectations";
+        this.authorOfTheBook = "Charles Dickens";
+        this.thirteenDigitIsbnNumberOfTheBook = "9876543210765";
+    }
 }
