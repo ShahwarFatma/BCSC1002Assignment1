@@ -22,4 +22,16 @@ public class Book {
     public String getThirteenDigitIsbnNumberOfTheBook() {
         return thirteenDigitIsbnNumberOfTheBook;
     }
+
+    public void setNameOfTheBook(String nameOfTheBook) {
+        this.nameOfTheBook = nameOfTheBook;
+    }
+
+    public void setAuthorOfTheBook(String authorOfTheBook) {
+        this.authorOfTheBook = authorOfTheBook;
+    }
+
+    public void setThirteenDigitIsbnNumberOfTheBook(String thirteenDigitIsbnNumberOfTheBook) {
+        this.thirteenDigitIsbnNumberOfTheBook = thirteenDigitIsbnNumberOfTheBook;
+    }
 }
