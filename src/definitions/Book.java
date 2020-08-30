@@ -40,4 +40,9 @@ public class Book {
         this.authorOfTheBook = "Charles Dickens";
         this.thirteenDigitIsbnNumberOfTheBook = "9876543210765";
     }
+
+    @Override
+    public String toString() {
+        return "Name of the Book: Harry Potter , Author of the Book: J.K. Rowling , ISBN Number of the Book: 1234567890897";
+    }
 }
