@@ -27,4 +27,20 @@ public class Student {
     public Book[] getNamesOfTheBooksIssuedByTheStudent() {
         return namesOfTheBooksIssuedByTheStudent;
     }
+
+    public void setNameOfTheStudent(String nameOfTheStudent) {
+        this.nameOfTheStudent = nameOfTheStudent;
+    }
+
+    public void setUniversityRollNumberOfTheStudent(long universityRollNumberOfTheStudent) {
+        this.universityRollNumberOfTheStudent = universityRollNumberOfTheStudent;
+    }
+
+    public void setNumberOfBooksIssuedByTheStudent(int numberOfBooksIssuedByTheStudent) {
+        this.numberOfBooksIssuedByTheStudent = numberOfBooksIssuedByTheStudent;
+    }
+
+    public void setNamesOfTheBooksIssuedByTheStudent(Book[] namesOfTheBooksIssuedByTheStudent) {
+        this.namesOfTheBooksIssuedByTheStudent = namesOfTheBooksIssuedByTheStudent;
+    }
 }
