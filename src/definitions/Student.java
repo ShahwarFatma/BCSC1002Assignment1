@@ -39,4 +39,10 @@ public class Student {
     public void setNumberOfBooksIssuedByTheStudent(int numberOfBooksIssuedByTheStudent) {
         this.numberOfBooksIssuedByTheStudent = numberOfBooksIssuedByTheStudent;
     }
+
+    public Student(String nameOfTheStudent, long universityRollNumberOfTheStudent) {
+        this.nameOfTheStudent = nameOfTheStudent;
+        this.universityRollNumberOfTheStudent = universityRollNumberOfTheStudent;
+        this.numberOfBooksIssuedByTheStudent = 2;
+    }
 }
