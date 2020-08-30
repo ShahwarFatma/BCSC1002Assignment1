@@ -6,6 +6,8 @@
  * */
 package definitions;
 
+import java.util.Objects;
+
 public class Book {
     private String nameOfTheBook;
     private String authorOfTheBook;
@@ -44,5 +46,20 @@ public class Book {
     @Override
     public String toString() {
         return "Name Of The Book:" + getNameOfTheBook() + "Author Of The Book:" + getAuthorOfTheBook() + "Thirteen Digit ISBN Number Of The Book:" + getThirteenDigitIsbnNumberOfTheBook();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Book)) return false;
+        Book book = (Book) o;
+        return getNameOfTheBook().equals(book.getNameOfTheBook()) &&
+                getAuthorOfTheBook().equals(book.getAuthorOfTheBook()) &&
+                getThirteenDigitIsbnNumberOfTheBook().equals(book.getThirteenDigitIsbnNumberOfTheBook());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getNameOfTheBook(), getAuthorOfTheBook(), getThirteenDigitIsbnNumberOfTheBook());
     }
 }
