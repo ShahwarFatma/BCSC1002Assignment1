@@ -26,7 +26,8 @@ public class FrontDesk {
         System.out.println("University Roll Number Of The Student:" + student.getUniversityRollNumberOfTheStudent());
         System.out.println("Number of Books issued by the Student:" + student.getNumberOfBooksIssuedByTheStudent());
         System.out.println("Names of Books issued by the Student:" + Arrays.toString(student.getNamesOfTheBooksIssuedByTheStudent()));
-
-
+        student.setNameOfTheStudent("Naaz Islam");
+        student.setUniversityRollNumberOfTheStudent(19040031);
+        student.setNumberOfBooksIssuedByTheStudent(1);
     }
 }

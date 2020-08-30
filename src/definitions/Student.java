@@ -39,8 +39,4 @@ public class Student {
     public void setNumberOfBooksIssuedByTheStudent(int numberOfBooksIssuedByTheStudent) {
         this.numberOfBooksIssuedByTheStudent = numberOfBooksIssuedByTheStudent;
     }
-
-    public void setNamesOfTheBooksIssuedByTheStudent(Book[] namesOfTheBooksIssuedByTheStudent) {
-        this.namesOfTheBooksIssuedByTheStudent = namesOfTheBooksIssuedByTheStudent;
-    }
 }
