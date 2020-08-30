@@ -27,4 +27,17 @@ public class Library {
     public String toString() {
         return "Books Currently Available:" + Arrays.toString(booksCurrentlyAvailable);
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Library)) return false;
+        Library library = (Library) o;
+        return Arrays.equals(getBooksCurrentlyAvailable(), library.getBooksCurrentlyAvailable());
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(getBooksCurrentlyAvailable());
+    }
 }
