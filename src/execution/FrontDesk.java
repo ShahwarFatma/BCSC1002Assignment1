@@ -27,5 +27,6 @@ public class FrontDesk {
         student.setNameOfTheStudent("Naaz Islam");
         student.setUniversityRollNumberOfTheStudent(19040031);
         student.setNumberOfBooksIssuedByTheStudent(1);
+        System.out.println(student.toString());
     }
 }
