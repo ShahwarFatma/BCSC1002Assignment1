@@ -17,4 +17,8 @@ public class Library {
         return booksCurrentlyAvailable;
     }
 
+    public void setBooksCurrentlyAvailable(Book[] booksThatAreCurrentlyAvailable) {
+        this.booksCurrentlyAvailable = booksThatAreCurrentlyAvailable;
+    }
+
 }
